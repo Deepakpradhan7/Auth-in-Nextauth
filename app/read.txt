@@ -1,3 +1,18 @@
+mongo- integration of next auth
+
 auth providers - google,github, credentials
 
-google,github -> 
+
+
+google,github -> only signin
+credentials -> register (custom api),  login using signin by auth
+
+
+
+for session-
+1- create session provider so that we have a wrap to wrap our layout
+2- pass session to that provider either in layout page or in provider page . session will be get from getServerSession() from next/auth.
+
+then we can use session
+1. we can use useSession() in client component/pages (it will get that session from the sessionprovider)
+2. and we can directly use getServerSession() in server component/pages. 
