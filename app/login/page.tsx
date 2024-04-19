@@ -35,7 +35,7 @@ const Login = () => {
             email,
             password
         })
-        console.log(res)
+      
 
         if (res?.error == "CredentialsSignin"){
             setError("Invalid email or password");

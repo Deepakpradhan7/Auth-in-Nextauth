@@ -28,7 +28,6 @@ const Register = () => {
     const onSubmit = async (data:any) => {
         setError("")
         setLoading(true)
-       console.log(data, 'data')
         try {
             const res = await fetch('/api/register',{
                 method: "POST",
@@ -37,7 +36,6 @@ const Register = () => {
                 },
                 body: JSON.stringify(data)
             })
-            console.log(res)
             if (res.status === 400){
                 setError('Email is taken')
             }

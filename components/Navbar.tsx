@@ -4,7 +4,7 @@ import { signOut, useSession } from "next-auth/react"
 
 const Navbar = () => {
     const session = useSession()
-    console.log(session, 'sessss')
+   
   return (
     <div className="text-md font-semibold px-6">
       <ul className="flex py-8 justify-between items-center">
