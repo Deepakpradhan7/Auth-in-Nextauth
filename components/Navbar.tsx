@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="text-md font-semibold px-6">
       <ul className="flex py-8 justify-between items-center">
         <div>
-            <Link href='/' className="text-fuchsia-900 text-lg">
+            <Link href='/' className="text-fuchsia-900 text-xl">
                 <li>AuthGuard</li>
             </Link>
         </div>
