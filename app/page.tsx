@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className="flex gap-10 flex-col">
             <Link href='/register'>
-          <p className="font-semibold text-xl text-fuchsia-900">  Don't have an account? <span className="text-white">Register Now</span></p>
+          <p className="font-semibold text-xl text-fuchsia-900">  Don&apos;t have an account? <span className="text-white">Register Now</span></p>
           </Link>
           <Link href='/login'>
           <p className="font-semibold text-xl text-fuchsia-900">  Already have an account? <span className="text-white">Login Now</span></p>
