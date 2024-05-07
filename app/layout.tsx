@@ -22,7 +22,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <AuthProvider session= {session}>
+       <AuthProvider session={session}>
         <div className="bg-fuchsia-100">
         <div className="mx-auto max-w-5xl  min-h-screen   ">
           <Navbar/>

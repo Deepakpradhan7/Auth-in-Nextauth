@@ -93,7 +93,7 @@ const Register = () => {
                         <FcGoogle className='text-lg mr-2' />
                         Register with Google
                     </button>
-                    <button onClick={()=>signIn('google')} className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300 hover:bg-[#60a8bc4f] font-medium">
+                    <button onClick={()=>signIn('github')} className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300 hover:bg-[#60a8bc4f] font-medium">
                         <FaGithub className='text- mr-2' />
 
                         Register with Github
